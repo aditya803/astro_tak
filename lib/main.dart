@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '1':(context) => const HomePage(),
         '2':(context) => const ProfilePage(),
+        '3':(context) => const FormPage(),
       },
       home: HomePage(),
     );
